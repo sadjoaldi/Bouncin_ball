@@ -36,6 +36,6 @@ window.onload = function () {
     animationLoop();
     // Interaction avec le ballon pour redonner de l'énergie
     ball_bouncing.addEventListener("click", function () {
-        velocity = -bounceFactor * 10; // Appliquer une impulsion vers le haut
+        velocity = -bounceFactor * 20;
     });
 };

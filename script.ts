@@ -52,6 +52,6 @@ window.onload = () => {
 
   // Interaction avec le ballon pour redonner de l'énergie
   ball_bouncing.addEventListener("click", () => {
-    velocity = -bounceFactor * 10; // Appliquer une impulsion vers le haut
+    velocity = -bounceFactor * 20;
   });
 };
